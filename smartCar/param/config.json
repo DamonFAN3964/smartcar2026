@@ -1,0 +1,72 @@
+{
+    "_注释_": "走马观碑赛道巡线参数配置文件 — 比赛现场只需修改此文件，无需重新编译",
+
+    "摄像头配置": {
+        "img_width":  160,
+        "img_height": 120,
+        "fps":        60
+    },
+
+    "速度配置": {
+        "base_speed":    50,
+        "speed_curve":   38,
+        "speed_inter":   35,
+        "speed_obstacle":25,
+        "speed_lost":    20
+    },
+
+    "PID_直道": {
+        "kp": 0.70,
+        "ki": 0.003,
+        "kd": 0.80,
+        "i_limit":   40.0,
+        "out_limit": 100.0
+    },
+
+    "PID_弯道": {
+        "kp": 1.10,
+        "ki": 0.003,
+        "kd": 0.40,
+        "i_limit":   40.0,
+        "out_limit": 100.0
+    },
+
+    "IPM逆透视": {
+        "_说明_": "坐标顺序: [左下, 右下, 右上, 左上]，针对160x120图像",
+        "src": [
+            [15.0,  115.0],
+            [145.0, 115.0],
+            [105.0,  66.0],
+            [ 55.0,  66.0]
+        ],
+        "dst": [
+            [ 20.0, 119.0],
+            [140.0, 119.0],
+            [140.0,   0.0],
+            [ 20.0,   0.0]
+        ]
+    },
+
+    "巡线参数": {
+        "row_scan_start":   110,
+        "row_scan_end":      20,
+        "road_width_min":    15,
+        "search_radius":     40,
+        "straight_var_thresh": 5.0,
+        "_说明_straight_": "底部10行中心x标准差<此值判为直道"
+    },
+
+    "场景检测": {
+        "inter_width_thresh":  100,
+        "inter_confirm_frames":  3,
+        "inter_pass_frames":    25,
+        "obstacle_red_ratio":  0.05,
+        "zebra_stripe_min":      4
+    },
+
+    "调试开关": {
+        "debug_stream":     true,
+        "debug_print_fps":  false,
+        "transmission_port": 8080
+    }
+}
