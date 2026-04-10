@@ -1,7 +1,7 @@
-CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o: \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_buzzer.cc \
+CMakeFiles/main.dir/smartCar/code/car_control.cc.o: \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/car_control.cc \
  /opt/loongson-gnu-toolchain-13.2/target/usr/include/stdc-predef.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_buzzer.h \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/car_control.h \
  /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/headfile.h \
  /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/opencv/include/opencv4/opencv2/opencv.hpp \
  /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/opencv/include/opencv4/opencv2/opencv_modules.hpp \
@@ -526,6 +526,7 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o: \
  /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/v4l2-controls.h \
  /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/const.h \
  /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_ioctl.h \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/headfile.h \
  /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_key.h \
  /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_brushless.h \
  /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_icm42688.h \
@@ -561,6 +562,5 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o: \
  /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/cassert \
  /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/line_detect.h \
  /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/pid.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/car_control.h \
  /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/scene_detect.h \
  /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/json.hpp

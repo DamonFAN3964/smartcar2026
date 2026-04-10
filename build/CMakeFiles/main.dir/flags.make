@@ -4,7 +4,7 @@
 # compile CXX with /opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code -I/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include -I/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library -I/home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/opencv/include/opencv4 -I/home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/json/include -I/home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/ncnn/include/ncnn
+CXX_INCLUDES = -I/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code -I/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include -I/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library -I/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/param -I/home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/opencv/include/opencv4 -I/home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/json/include -I/home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/ncnn/include/ncnn
 
 CXX_FLAGS =  -O3 -std=gnu++11
 

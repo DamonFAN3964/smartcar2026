@@ -538,5 +538,29 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.o: \
  /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_transmission.h \
  /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_tcp_client.h \
  /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_camera.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/music.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/headfile.h
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/image_proc.h \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/param/param.hpp \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/param/../include/json.hpp \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/iterator \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/stream_iterator.h \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/numeric \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/stl_numeric.h \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/forward_list \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/forward_list.h \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/forward_list.tcc \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/valarray \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/valarray_array.h \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/valarray_array.tcc \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/valarray_before.h \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/slice_array.h \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/valarray_after.h \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/gslice.h \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/gslice_array.h \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/mask_array.h \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/indirect_array.h \
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/cassert \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/line_detect.h \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/pid.h \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/car_control.h \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/scene_detect.h \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/json.hpp

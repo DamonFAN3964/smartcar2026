@@ -1,8 +1,7 @@
-CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o: \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_buzzer.cc \
+CMakeFiles/main.dir/smartCar/code/scene_detect.cc.o: \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/scene_detect.cc \
  /opt/loongson-gnu-toolchain-13.2/target/usr/include/stdc-predef.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_buzzer.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/headfile.h \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/scene_detect.h \
  /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/opencv/include/opencv4/opencv2/opencv.hpp \
  /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/opencv/include/opencv4/opencv2/opencv_modules.hpp \
  /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/opencv/include/opencv4/opencv2/core.hpp \
@@ -404,142 +403,12 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o: \
  /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/opencv/include/opencv4/opencv2/video.hpp \
  /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/opencv/include/opencv4/opencv2/video/tracking.hpp \
  /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/opencv/include/opencv4/opencv2/video/background_segm.hpp \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/json/include/json/json.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/json/include/json/config.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/json/include/json/allocator.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/json/include/json/version.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/json/include/json/json_features.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/json/include/json/forwards.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/json/include/json/reader.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/json/include/json/value.h \
- /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/stack \
- /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/stl_stack.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/json/include/json/writer.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/ncnn/include/ncnn/net.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/ncnn/include/ncnn/blob.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/ncnn/include/ncnn/mat.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/ncnn/include/ncnn/allocator.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/ncnn/include/ncnn/platform.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/ncnn/include/ncnn/ncnn_export.h \
- /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/fenv.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/fenv.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/fenv.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/ncnn/include/ncnn/option.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/ncnn/include/ncnn/layer.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/ncnn/include/ncnn/modelbin.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/cross_lib/ncnn/include/ncnn/paramdict.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/sys/socket.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/types/struct_iovec.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/socket.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/socket_type.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/sockaddr.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm/socket.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm-generic/socket.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/posix_types.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/stddef.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm/posix_types.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm-generic/posix_types.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm/bitsperlong.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm-generic/bitsperlong.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm/sockios.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm-generic/sockios.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/types/struct_osockaddr.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/arpa/inet.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/netinet/in.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/in.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/unistd.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/posix_opt.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/environments.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/confname.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/getopt_posix.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/getopt_core.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/unistd_ext.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/close_range.h \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/line_detect.h \
+ /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/param/param.hpp \
  /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/fstream \
  /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/loongarch64-unknown-linux-gnu/bits/basic_file.h \
  /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/loongarch64-unknown-linux-gnu/bits/c++io.h \
  /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/fstream.tcc \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/fcntl.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/fcntl.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/fcntl-linux.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/falloc.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/stat.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/struct_stat.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/sys/ioctl.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/ioctls.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm/ioctls.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm-generic/ioctls.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/ioctl.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm/ioctl.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm-generic/ioctl.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/ioctl-types.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/sys/ttydefaults.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/fb.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/types.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm/types.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm-generic/types.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm-generic/int-ll64.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/i2c.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/sys/mman.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/mman.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/mman-map-flags-generic.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/mman-linux.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/mman-shared.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/mman_ext.h \
- /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/thread \
- /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/std_thread.h \
- /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/this_thread_sleep.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/input.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/sys/time.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/input-event-codes.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/netinet/tcp.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/signal.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/signum-generic.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/signum-arch.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/types/sig_atomic_t.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/types/siginfo_t.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/types/__sigval_t.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/siginfo-arch.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/siginfo-consts.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/siginfo-consts-arch.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/types/sigval_t.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/types/sigevent_t.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/sigevent-consts.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/sigaction.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/sigcontext.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/asm/sigcontext.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/types/stack_t.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/sys/ucontext.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/sigstack.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/sigstksz.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/ss_flags.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/types/struct_sigstack.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/sigthread.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/signal_ext.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/ifaddrs.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/net/if.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/netdb.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/rpc/netdb.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/bits/netdb.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/videodev2.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/v4l2-common.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/v4l2-controls.h \
- /opt/loongson-gnu-toolchain-13.2/target/usr/include/linux/const.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_ioctl.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_key.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_brushless.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_icm42688.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_motor.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_buzzer.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_lcd.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/font.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_vl53l0x.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_timerThread.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_transmission.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_tcp_client.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/ww_camera.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/image_proc.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/param/param.hpp \
  /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/param/../include/json.hpp \
  /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/iterator \
  /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/stream_iterator.h \
@@ -558,9 +427,4 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o: \
  /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/gslice_array.h \
  /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/mask_array.h \
  /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/bits/indirect_array.h \
- /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/cassert \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/line_detect.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/pid.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/car_control.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/scene_detect.h \
- /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/include/json.hpp
+ /opt/loongson-gnu-toolchain-13.2/loongarch64-unknown-linux-gnu/include/c++/13.2.0/cassert

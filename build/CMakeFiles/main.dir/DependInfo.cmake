@@ -8,8 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/music.cc" "CMakeFiles/main.dir/smartCar/code/music.cc.o" "gcc" "CMakeFiles/main.dir/smartCar/code/music.cc.o.d"
-  "/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/main.cpp" "CMakeFiles/main.dir/smartCar/main.cpp.o" "gcc" "CMakeFiles/main.dir/smartCar/main.cpp.o.d"
+  "/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/car_control.cc" "CMakeFiles/main.dir/smartCar/code/car_control.cc.o" "gcc" "CMakeFiles/main.dir/smartCar/code/car_control.cc.o.d"
+  "/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/image_proc.cc" "CMakeFiles/main.dir/smartCar/code/image_proc.cc.o" "gcc" "CMakeFiles/main.dir/smartCar/code/image_proc.cc.o.d"
+  "/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/line_detect.cc" "CMakeFiles/main.dir/smartCar/code/line_detect.cc.o" "gcc" "CMakeFiles/main.dir/smartCar/code/line_detect.cc.o.d"
+  "/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/pid.cc" "CMakeFiles/main.dir/smartCar/code/pid.cc.o" "gcc" "CMakeFiles/main.dir/smartCar/code/pid.cc.o.d"
+  "/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/scene_detect.cc" "CMakeFiles/main.dir/smartCar/code/scene_detect.cc.o" "gcc" "CMakeFiles/main.dir/smartCar/code/scene_detect.cc.o.d"
+  "/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/main.cc" "CMakeFiles/main.dir/smartCar/main.cc.o" "gcc" "CMakeFiles/main.dir/smartCar/main.cc.o.d"
   "/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/font.cc" "CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.o" "gcc" "CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.o.d"
   "/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_brushless.cc" "CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.o" "gcc" "CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.o.d"
   "/home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_buzzer.cc" "CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o" "gcc" "CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o.d"

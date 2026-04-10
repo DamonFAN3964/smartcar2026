@@ -69,38 +69,94 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/smartCar/code/music.cc.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/smartCar/code/music.cc.o: ../smartCar/code/music.cc
-CMakeFiles/main.dir/smartCar/code/music.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/smartCar/code/music.cc.o"
-	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/code/music.cc.o -MF CMakeFiles/main.dir/smartCar/code/music.cc.o.d -o CMakeFiles/main.dir/smartCar/code/music.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/music.cc
+CMakeFiles/main.dir/smartCar/code/car_control.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/smartCar/code/car_control.cc.o: ../smartCar/code/car_control.cc
+CMakeFiles/main.dir/smartCar/code/car_control.cc.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/smartCar/code/car_control.cc.o"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/code/car_control.cc.o -MF CMakeFiles/main.dir/smartCar/code/car_control.cc.o.d -o CMakeFiles/main.dir/smartCar/code/car_control.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/car_control.cc
 
-CMakeFiles/main.dir/smartCar/code/music.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/smartCar/code/music.cc.i"
-	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/music.cc > CMakeFiles/main.dir/smartCar/code/music.cc.i
+CMakeFiles/main.dir/smartCar/code/car_control.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/smartCar/code/car_control.cc.i"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/car_control.cc > CMakeFiles/main.dir/smartCar/code/car_control.cc.i
 
-CMakeFiles/main.dir/smartCar/code/music.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/smartCar/code/music.cc.s"
-	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/music.cc -o CMakeFiles/main.dir/smartCar/code/music.cc.s
+CMakeFiles/main.dir/smartCar/code/car_control.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/smartCar/code/car_control.cc.s"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/car_control.cc -o CMakeFiles/main.dir/smartCar/code/car_control.cc.s
 
-CMakeFiles/main.dir/smartCar/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/smartCar/main.cpp.o: ../smartCar/main.cpp
-CMakeFiles/main.dir/smartCar/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/smartCar/main.cpp.o"
-	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/main.cpp.o -MF CMakeFiles/main.dir/smartCar/main.cpp.o.d -o CMakeFiles/main.dir/smartCar/main.cpp.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/main.cpp
+CMakeFiles/main.dir/smartCar/code/image_proc.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/smartCar/code/image_proc.cc.o: ../smartCar/code/image_proc.cc
+CMakeFiles/main.dir/smartCar/code/image_proc.cc.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/smartCar/code/image_proc.cc.o"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/code/image_proc.cc.o -MF CMakeFiles/main.dir/smartCar/code/image_proc.cc.o.d -o CMakeFiles/main.dir/smartCar/code/image_proc.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/image_proc.cc
 
-CMakeFiles/main.dir/smartCar/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/smartCar/main.cpp.i"
-	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/main.cpp > CMakeFiles/main.dir/smartCar/main.cpp.i
+CMakeFiles/main.dir/smartCar/code/image_proc.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/smartCar/code/image_proc.cc.i"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/image_proc.cc > CMakeFiles/main.dir/smartCar/code/image_proc.cc.i
 
-CMakeFiles/main.dir/smartCar/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/smartCar/main.cpp.s"
-	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/main.cpp -o CMakeFiles/main.dir/smartCar/main.cpp.s
+CMakeFiles/main.dir/smartCar/code/image_proc.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/smartCar/code/image_proc.cc.s"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/image_proc.cc -o CMakeFiles/main.dir/smartCar/code/image_proc.cc.s
+
+CMakeFiles/main.dir/smartCar/code/line_detect.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/smartCar/code/line_detect.cc.o: ../smartCar/code/line_detect.cc
+CMakeFiles/main.dir/smartCar/code/line_detect.cc.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/smartCar/code/line_detect.cc.o"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/code/line_detect.cc.o -MF CMakeFiles/main.dir/smartCar/code/line_detect.cc.o.d -o CMakeFiles/main.dir/smartCar/code/line_detect.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/line_detect.cc
+
+CMakeFiles/main.dir/smartCar/code/line_detect.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/smartCar/code/line_detect.cc.i"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/line_detect.cc > CMakeFiles/main.dir/smartCar/code/line_detect.cc.i
+
+CMakeFiles/main.dir/smartCar/code/line_detect.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/smartCar/code/line_detect.cc.s"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/line_detect.cc -o CMakeFiles/main.dir/smartCar/code/line_detect.cc.s
+
+CMakeFiles/main.dir/smartCar/code/pid.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/smartCar/code/pid.cc.o: ../smartCar/code/pid.cc
+CMakeFiles/main.dir/smartCar/code/pid.cc.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/smartCar/code/pid.cc.o"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/code/pid.cc.o -MF CMakeFiles/main.dir/smartCar/code/pid.cc.o.d -o CMakeFiles/main.dir/smartCar/code/pid.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/pid.cc
+
+CMakeFiles/main.dir/smartCar/code/pid.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/smartCar/code/pid.cc.i"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/pid.cc > CMakeFiles/main.dir/smartCar/code/pid.cc.i
+
+CMakeFiles/main.dir/smartCar/code/pid.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/smartCar/code/pid.cc.s"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/pid.cc -o CMakeFiles/main.dir/smartCar/code/pid.cc.s
+
+CMakeFiles/main.dir/smartCar/code/scene_detect.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/smartCar/code/scene_detect.cc.o: ../smartCar/code/scene_detect.cc
+CMakeFiles/main.dir/smartCar/code/scene_detect.cc.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/smartCar/code/scene_detect.cc.o"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/code/scene_detect.cc.o -MF CMakeFiles/main.dir/smartCar/code/scene_detect.cc.o.d -o CMakeFiles/main.dir/smartCar/code/scene_detect.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/scene_detect.cc
+
+CMakeFiles/main.dir/smartCar/code/scene_detect.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/smartCar/code/scene_detect.cc.i"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/scene_detect.cc > CMakeFiles/main.dir/smartCar/code/scene_detect.cc.i
+
+CMakeFiles/main.dir/smartCar/code/scene_detect.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/smartCar/code/scene_detect.cc.s"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/code/scene_detect.cc -o CMakeFiles/main.dir/smartCar/code/scene_detect.cc.s
+
+CMakeFiles/main.dir/smartCar/main.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/smartCar/main.cc.o: ../smartCar/main.cc
+CMakeFiles/main.dir/smartCar/main.cc.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/smartCar/main.cc.o"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/main.cc.o -MF CMakeFiles/main.dir/smartCar/main.cc.o.d -o CMakeFiles/main.dir/smartCar/main.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/main.cc
+
+CMakeFiles/main.dir/smartCar/main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/smartCar/main.cc.i"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/main.cc > CMakeFiles/main.dir/smartCar/main.cc.i
+
+CMakeFiles/main.dir/smartCar/main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/smartCar/main.cc.s"
+	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/main.cc -o CMakeFiles/main.dir/smartCar/main.cc.s
 
 CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.o: ../smartCar/wuwu_library/font.cc
 CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.o"
 	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.o -MF CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.o.d -o CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/font.cc
 
 CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.i: cmake_force
@@ -114,7 +170,7 @@ CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.s: cmake_force
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.o: ../smartCar/wuwu_library/ww_brushless.cc
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.o"
 	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.o -MF CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.o.d -o CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_brushless.cc
 
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.i: cmake_force
@@ -128,7 +184,7 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.s: cmake_force
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o: ../smartCar/wuwu_library/ww_buzzer.cc
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o"
 	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o -MF CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o.d -o CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_buzzer.cc
 
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.i: cmake_force
@@ -142,7 +198,7 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.s: cmake_force
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_camera.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_camera.cc.o: ../smartCar/wuwu_library/ww_camera.cc
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_camera.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_camera.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_camera.cc.o"
 	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/wuwu_library/ww_camera.cc.o -MF CMakeFiles/main.dir/smartCar/wuwu_library/ww_camera.cc.o.d -o CMakeFiles/main.dir/smartCar/wuwu_library/ww_camera.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_camera.cc
 
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_camera.cc.i: cmake_force
@@ -156,7 +212,7 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_camera.cc.s: cmake_force
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_icm42688.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_icm42688.cc.o: ../smartCar/wuwu_library/ww_icm42688.cc
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_icm42688.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_icm42688.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_icm42688.cc.o"
 	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/wuwu_library/ww_icm42688.cc.o -MF CMakeFiles/main.dir/smartCar/wuwu_library/ww_icm42688.cc.o.d -o CMakeFiles/main.dir/smartCar/wuwu_library/ww_icm42688.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_icm42688.cc
 
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_icm42688.cc.i: cmake_force
@@ -170,7 +226,7 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_icm42688.cc.s: cmake_force
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_key.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_key.cc.o: ../smartCar/wuwu_library/ww_key.cc
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_key.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_key.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_key.cc.o"
 	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/wuwu_library/ww_key.cc.o -MF CMakeFiles/main.dir/smartCar/wuwu_library/ww_key.cc.o.d -o CMakeFiles/main.dir/smartCar/wuwu_library/ww_key.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_key.cc
 
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_key.cc.i: cmake_force
@@ -184,7 +240,7 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_key.cc.s: cmake_force
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_lcd.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_lcd.cc.o: ../smartCar/wuwu_library/ww_lcd.cc
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_lcd.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_lcd.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_lcd.cc.o"
 	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/wuwu_library/ww_lcd.cc.o -MF CMakeFiles/main.dir/smartCar/wuwu_library/ww_lcd.cc.o.d -o CMakeFiles/main.dir/smartCar/wuwu_library/ww_lcd.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_lcd.cc
 
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_lcd.cc.i: cmake_force
@@ -198,7 +254,7 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_lcd.cc.s: cmake_force
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_motor.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_motor.cc.o: ../smartCar/wuwu_library/ww_motor.cc
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_motor.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_motor.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_motor.cc.o"
 	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/wuwu_library/ww_motor.cc.o -MF CMakeFiles/main.dir/smartCar/wuwu_library/ww_motor.cc.o.d -o CMakeFiles/main.dir/smartCar/wuwu_library/ww_motor.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_motor.cc
 
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_motor.cc.i: cmake_force
@@ -212,7 +268,7 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_motor.cc.s: cmake_force
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_tcp_client.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_tcp_client.cc.o: ../smartCar/wuwu_library/ww_tcp_client.cc
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_tcp_client.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_tcp_client.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_tcp_client.cc.o"
 	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/wuwu_library/ww_tcp_client.cc.o -MF CMakeFiles/main.dir/smartCar/wuwu_library/ww_tcp_client.cc.o.d -o CMakeFiles/main.dir/smartCar/wuwu_library/ww_tcp_client.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_tcp_client.cc
 
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_tcp_client.cc.i: cmake_force
@@ -226,7 +282,7 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_tcp_client.cc.s: cmake_force
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_timerThread.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_timerThread.cc.o: ../smartCar/wuwu_library/ww_timerThread.cc
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_timerThread.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_timerThread.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_timerThread.cc.o"
 	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/wuwu_library/ww_timerThread.cc.o -MF CMakeFiles/main.dir/smartCar/wuwu_library/ww_timerThread.cc.o.d -o CMakeFiles/main.dir/smartCar/wuwu_library/ww_timerThread.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_timerThread.cc
 
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_timerThread.cc.i: cmake_force
@@ -240,7 +296,7 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_timerThread.cc.s: cmake_force
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_transmission.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_transmission.cc.o: ../smartCar/wuwu_library/ww_transmission.cc
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_transmission.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_transmission.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_transmission.cc.o"
 	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/wuwu_library/ww_transmission.cc.o -MF CMakeFiles/main.dir/smartCar/wuwu_library/ww_transmission.cc.o.d -o CMakeFiles/main.dir/smartCar/wuwu_library/ww_transmission.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_transmission.cc
 
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_transmission.cc.i: cmake_force
@@ -254,7 +310,7 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_transmission.cc.s: cmake_force
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_vl53l0x.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_vl53l0x.cc.o: ../smartCar/wuwu_library/ww_vl53l0x.cc
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_vl53l0x.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_vl53l0x.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/smartCar/wuwu_library/ww_vl53l0x.cc.o"
 	/opt/loongson-gnu-toolchain-13.2/bin/loongarch64-unknown-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/smartCar/wuwu_library/ww_vl53l0x.cc.o -MF CMakeFiles/main.dir/smartCar/wuwu_library/ww_vl53l0x.cc.o.d -o CMakeFiles/main.dir/smartCar/wuwu_library/ww_vl53l0x.cc.o -c /home/wuwu/workspace/WuwuSama_Icar_Project/smartCar/wuwu_library/ww_vl53l0x.cc
 
 CMakeFiles/main.dir/smartCar/wuwu_library/ww_vl53l0x.cc.i: cmake_force
@@ -267,8 +323,12 @@ CMakeFiles/main.dir/smartCar/wuwu_library/ww_vl53l0x.cc.s: cmake_force
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/smartCar/code/music.cc.o" \
-"CMakeFiles/main.dir/smartCar/main.cpp.o" \
+"CMakeFiles/main.dir/smartCar/code/car_control.cc.o" \
+"CMakeFiles/main.dir/smartCar/code/image_proc.cc.o" \
+"CMakeFiles/main.dir/smartCar/code/line_detect.cc.o" \
+"CMakeFiles/main.dir/smartCar/code/pid.cc.o" \
+"CMakeFiles/main.dir/smartCar/code/scene_detect.cc.o" \
+"CMakeFiles/main.dir/smartCar/main.cc.o" \
 "CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.o" \
 "CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.o" \
 "CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o" \
@@ -285,8 +345,12 @@ main_OBJECTS = \
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/smartCar/code/music.cc.o
-main: CMakeFiles/main.dir/smartCar/main.cpp.o
+main: CMakeFiles/main.dir/smartCar/code/car_control.cc.o
+main: CMakeFiles/main.dir/smartCar/code/image_proc.cc.o
+main: CMakeFiles/main.dir/smartCar/code/line_detect.cc.o
+main: CMakeFiles/main.dir/smartCar/code/pid.cc.o
+main: CMakeFiles/main.dir/smartCar/code/scene_detect.cc.o
+main: CMakeFiles/main.dir/smartCar/main.cc.o
 main: CMakeFiles/main.dir/smartCar/wuwu_library/font.cc.o
 main: CMakeFiles/main.dir/smartCar/wuwu_library/ww_brushless.cc.o
 main: CMakeFiles/main.dir/smartCar/wuwu_library/ww_buzzer.cc.o
@@ -301,7 +365,7 @@ main: CMakeFiles/main.dir/smartCar/wuwu_library/ww_transmission.cc.o
 main: CMakeFiles/main.dir/smartCar/wuwu_library/ww_vl53l0x.cc.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wuwu/workspace/WuwuSama_Icar_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

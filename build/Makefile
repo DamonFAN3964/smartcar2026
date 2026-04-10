@@ -129,53 +129,149 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-smartCar/code/music.o: smartCar/code/music.cc.o
-.PHONY : smartCar/code/music.o
+smartCar/code/car_control.o: smartCar/code/car_control.cc.o
+.PHONY : smartCar/code/car_control.o
 
 # target to build an object file
-smartCar/code/music.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/music.cc.o
-.PHONY : smartCar/code/music.cc.o
+smartCar/code/car_control.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/car_control.cc.o
+.PHONY : smartCar/code/car_control.cc.o
 
-smartCar/code/music.i: smartCar/code/music.cc.i
-.PHONY : smartCar/code/music.i
+smartCar/code/car_control.i: smartCar/code/car_control.cc.i
+.PHONY : smartCar/code/car_control.i
 
 # target to preprocess a source file
-smartCar/code/music.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/music.cc.i
-.PHONY : smartCar/code/music.cc.i
+smartCar/code/car_control.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/car_control.cc.i
+.PHONY : smartCar/code/car_control.cc.i
 
-smartCar/code/music.s: smartCar/code/music.cc.s
-.PHONY : smartCar/code/music.s
+smartCar/code/car_control.s: smartCar/code/car_control.cc.s
+.PHONY : smartCar/code/car_control.s
 
 # target to generate assembly for a file
-smartCar/code/music.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/music.cc.s
-.PHONY : smartCar/code/music.cc.s
+smartCar/code/car_control.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/car_control.cc.s
+.PHONY : smartCar/code/car_control.cc.s
 
-smartCar/main.o: smartCar/main.cpp.o
+smartCar/code/image_proc.o: smartCar/code/image_proc.cc.o
+.PHONY : smartCar/code/image_proc.o
+
+# target to build an object file
+smartCar/code/image_proc.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/image_proc.cc.o
+.PHONY : smartCar/code/image_proc.cc.o
+
+smartCar/code/image_proc.i: smartCar/code/image_proc.cc.i
+.PHONY : smartCar/code/image_proc.i
+
+# target to preprocess a source file
+smartCar/code/image_proc.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/image_proc.cc.i
+.PHONY : smartCar/code/image_proc.cc.i
+
+smartCar/code/image_proc.s: smartCar/code/image_proc.cc.s
+.PHONY : smartCar/code/image_proc.s
+
+# target to generate assembly for a file
+smartCar/code/image_proc.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/image_proc.cc.s
+.PHONY : smartCar/code/image_proc.cc.s
+
+smartCar/code/line_detect.o: smartCar/code/line_detect.cc.o
+.PHONY : smartCar/code/line_detect.o
+
+# target to build an object file
+smartCar/code/line_detect.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/line_detect.cc.o
+.PHONY : smartCar/code/line_detect.cc.o
+
+smartCar/code/line_detect.i: smartCar/code/line_detect.cc.i
+.PHONY : smartCar/code/line_detect.i
+
+# target to preprocess a source file
+smartCar/code/line_detect.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/line_detect.cc.i
+.PHONY : smartCar/code/line_detect.cc.i
+
+smartCar/code/line_detect.s: smartCar/code/line_detect.cc.s
+.PHONY : smartCar/code/line_detect.s
+
+# target to generate assembly for a file
+smartCar/code/line_detect.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/line_detect.cc.s
+.PHONY : smartCar/code/line_detect.cc.s
+
+smartCar/code/pid.o: smartCar/code/pid.cc.o
+.PHONY : smartCar/code/pid.o
+
+# target to build an object file
+smartCar/code/pid.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/pid.cc.o
+.PHONY : smartCar/code/pid.cc.o
+
+smartCar/code/pid.i: smartCar/code/pid.cc.i
+.PHONY : smartCar/code/pid.i
+
+# target to preprocess a source file
+smartCar/code/pid.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/pid.cc.i
+.PHONY : smartCar/code/pid.cc.i
+
+smartCar/code/pid.s: smartCar/code/pid.cc.s
+.PHONY : smartCar/code/pid.s
+
+# target to generate assembly for a file
+smartCar/code/pid.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/pid.cc.s
+.PHONY : smartCar/code/pid.cc.s
+
+smartCar/code/scene_detect.o: smartCar/code/scene_detect.cc.o
+.PHONY : smartCar/code/scene_detect.o
+
+# target to build an object file
+smartCar/code/scene_detect.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/scene_detect.cc.o
+.PHONY : smartCar/code/scene_detect.cc.o
+
+smartCar/code/scene_detect.i: smartCar/code/scene_detect.cc.i
+.PHONY : smartCar/code/scene_detect.i
+
+# target to preprocess a source file
+smartCar/code/scene_detect.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/scene_detect.cc.i
+.PHONY : smartCar/code/scene_detect.cc.i
+
+smartCar/code/scene_detect.s: smartCar/code/scene_detect.cc.s
+.PHONY : smartCar/code/scene_detect.s
+
+# target to generate assembly for a file
+smartCar/code/scene_detect.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/code/scene_detect.cc.s
+.PHONY : smartCar/code/scene_detect.cc.s
+
+smartCar/main.o: smartCar/main.cc.o
 .PHONY : smartCar/main.o
 
 # target to build an object file
-smartCar/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/main.cpp.o
-.PHONY : smartCar/main.cpp.o
+smartCar/main.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/main.cc.o
+.PHONY : smartCar/main.cc.o
 
-smartCar/main.i: smartCar/main.cpp.i
+smartCar/main.i: smartCar/main.cc.i
 .PHONY : smartCar/main.i
 
 # target to preprocess a source file
-smartCar/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/main.cpp.i
-.PHONY : smartCar/main.cpp.i
+smartCar/main.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/main.cc.i
+.PHONY : smartCar/main.cc.i
 
-smartCar/main.s: smartCar/main.cpp.s
+smartCar/main.s: smartCar/main.cc.s
 .PHONY : smartCar/main.s
 
 # target to generate assembly for a file
-smartCar/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/main.cpp.s
-.PHONY : smartCar/main.cpp.s
+smartCar/main.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/smartCar/main.cc.s
+.PHONY : smartCar/main.cc.s
 
 smartCar/wuwu_library/font.o: smartCar/wuwu_library/font.cc.o
 .PHONY : smartCar/wuwu_library/font.o
@@ -474,9 +570,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... smartCar/code/music.o"
-	@echo "... smartCar/code/music.i"
-	@echo "... smartCar/code/music.s"
+	@echo "... smartCar/code/car_control.o"
+	@echo "... smartCar/code/car_control.i"
+	@echo "... smartCar/code/car_control.s"
+	@echo "... smartCar/code/image_proc.o"
+	@echo "... smartCar/code/image_proc.i"
+	@echo "... smartCar/code/image_proc.s"
+	@echo "... smartCar/code/line_detect.o"
+	@echo "... smartCar/code/line_detect.i"
+	@echo "... smartCar/code/line_detect.s"
+	@echo "... smartCar/code/pid.o"
+	@echo "... smartCar/code/pid.i"
+	@echo "... smartCar/code/pid.s"
+	@echo "... smartCar/code/scene_detect.o"
+	@echo "... smartCar/code/scene_detect.i"
+	@echo "... smartCar/code/scene_detect.s"
 	@echo "... smartCar/main.o"
 	@echo "... smartCar/main.i"
 	@echo "... smartCar/main.s"
